@@ -1,0 +1,17 @@
+D:\KPI\3_course\пп\lab8\bin\Debug\netcoreapp3.1\lab8.exe
+D:\KPI\3_course\пп\lab8\bin\Debug\netcoreapp3.1\lab8.deps.json
+D:\KPI\3_course\пп\lab8\bin\Debug\netcoreapp3.1\lab8.runtimeconfig.json
+D:\KPI\3_course\пп\lab8\bin\Debug\netcoreapp3.1\lab8.runtimeconfig.dev.json
+D:\KPI\3_course\пп\lab8\bin\Debug\netcoreapp3.1\lab8.dll
+D:\KPI\3_course\пп\lab8\bin\Debug\netcoreapp3.1\lab8.pdb
+D:\KPI\3_course\пп\lab8\obj\Debug\netcoreapp3.1\lab8.csproj.AssemblyReference.cache
+D:\KPI\3_course\пп\lab8\obj\Debug\netcoreapp3.1\lab8.Form1.resources
+D:\KPI\3_course\пп\lab8\obj\Debug\netcoreapp3.1\lab8.csproj.GenerateResource.cache
+D:\KPI\3_course\пп\lab8\obj\Debug\netcoreapp3.1\lab8.GeneratedMSBuildEditorConfig.editorconfig
+D:\KPI\3_course\пп\lab8\obj\Debug\netcoreapp3.1\lab8.AssemblyInfoInputs.cache
+D:\KPI\3_course\пп\lab8\obj\Debug\netcoreapp3.1\lab8.AssemblyInfo.cs
+D:\KPI\3_course\пп\lab8\obj\Debug\netcoreapp3.1\lab8.csproj.CoreCompileInputs.cache
+D:\KPI\3_course\пп\lab8\obj\Debug\netcoreapp3.1\lab8.dll
+D:\KPI\3_course\пп\lab8\obj\Debug\netcoreapp3.1\lab8.pdb
+D:\KPI\3_course\пп\lab8\obj\Debug\netcoreapp3.1\lab8.genruntimeconfig.cache
+D:\KPI\3_course\пп\lab8\obj\Debug\netcoreapp3.1\lab8.Properties.Resources.resources

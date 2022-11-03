@@ -1,0 +1,296 @@
+unit Unit1;
+
+interface
+
+uses
+  Windows, Messages, SysUtils, Variants, Classes, Graphics, Controls, Forms,
+  Dialogs, StdCtrls, ExtCtrls, Menus, jpeg, ComCtrls;
+
+type
+  TForm1 = class(TForm)
+    Image1: TImage;
+    Image2: TImage;
+    Image3: TImage;
+    Label1: TLabel;
+    Image4: TImage;
+    Label3: TLabel;
+    Button1: TButton;
+    Button2: TButton;
+    Panel1: TPanel;
+    TrackBar1: TTrackBar;
+    Timer1: TTimer;
+    Timer2: TTimer;
+    procedure DelayInit(Sender: TObject);
+    procedure btn1Click(Sender: TObject);
+    procedure btn2Click(Sender: TObject);
+    procedure Delay(Value: Cardinal);
+  private
+        procedure SysOn();
+        procedure SysOff();
+
+  public
+    { Public declarations }
+  end;
+
+var
+  Form1: TForm1;
+  Bflag:Boolean;
+
+implementation
+
+{$R *.dfm}
+
+procedure TForm1.btn1Click(Sender: TObject);
+begin
+    SysOn();
+end;
+
+procedure TForm1.SysOn();
+var n:Integer;
+begin
+    n:=strtoint(Form1.Delayindic.Text);
+    bflag:=True;
+    Delay(n*1000);
+      Form1.sChState.Brush.Color:=clGreen;
+      Form1.Label7.Font.Color:=clGreen;
+    Delay(n*500);
+
+      Form1.Label10.Font.Color:=clGreen;
+      Form1.sData.Brush.Color:=clGreen;
+      Form1.Label5.Font.Color:=clGreen;
+      Form1.Label8.Font.Color:=clGreen;
+
+      Form1.sControl.Brush.Color:=clGreen;
+      Form1.Label9.Font.Color:=clGreen;
+      Form1.Label6.Font.Color:=clGreen;
+      Form1.Shape3.Brush.Color:=clGreen;
+      Form1.Shape4.Brush.Color:=clGreen;
+      Form1.Shape5.Brush.Color:=clGreen;
+      Form1.Label14.Font.Color:=clGreen;
+      Form1.Label9.Font.Color:=clGreen;
+
+      //AB
+      Form1.SAB.Brush.Color:=clGreen;
+      Form1.Label15.Font.Color:=clGreen;
+      Form1.Label16.Font.Color:=clGreen;
+      Form1.Shape7.Brush.Color:=clGreen;
+      Form1.Shape9.Brush.Color:=clGreen;
+      Form1.Shape8.Brush.Color:=clGreen;
+      Form1.Label17.Font.Color:=clGreen;
+     Form1.Label18.Font.Color:=clGreen;
+      Form1.Label19.Font.Color:=clGreen;
+       Form1.Label20.Font.Color:=clGreen;
+      Form1.Label10.Font.Color:=clGreen;
+       Form1.Label15.Font.Color:=clGreen;
+      Form1.Label21.Font.Color:=clGreen;
+      Form1.Shape17.Brush.Color:=clGreen;
+      Form1.Shape11.Brush.Color:=clGreen;
+      Form1.Shape10.Brush.Color:=clGreen;
+      Form1.Shape12.Brush.Color:=clGreen;
+      Form1.Shape15.Brush.Color:=clGreen;
+      Form1.Shape14.Brush.Color:=clGreen;
+      Form1.Shape10.Brush.Color:=clGreen;
+      Form1.Shape13.Brush.Color:=clGreen;
+
+      //
+      Form1.Shape23.Brush.Color:=clGreen;
+      Form1.Shape24.Brush.Color:=clGreen;
+      Form1.Shape25.Brush.Color:=clGreen;
+      Form1.Shape26.Brush.Color:=clGreen;
+      Form1.Shape27.Brush.Color:=clGreen;
+      Form1.Shape28.Brush.Color:=clGreen;
+      Form1.Label41.Font.Color:=clGreen;
+      Form1.Label42.Font.Color:=clGreen;
+      Form1.Label45.Font.Color:=clGreen;
+      Form1.Label46.Font.Color:=clGreen;
+      Form1.Label48.Font.Color:=clGreen;
+
+      Form1.Shape29.Brush.Color:=clGreen;
+      Form1.Label52.Font.Color:=clGreen;
+
+      Form1.Shape35.Brush.Color:=clGreen;
+      Form1.Shape36.Brush.Color:=clGreen;
+      Form1.Shape37.Brush.Color:=clGreen;
+      Form1.Shape38.Brush.Color:=clGreen;
+      Form1.Shape33.Brush.Color:=clGreen;
+      Form1.Shape34.Brush.Color:=clGreen;
+      Form1.Label66.Font.Color:=clGreen;
+      Form1.Label65.Font.Color:=clGreen;
+      Form1.Label64.Font.Color:=clGreen;
+      Form1.Label63.Font.Color:=clGreen;
+      Form1.Label62.Font.Color:=clGreen;
+      Form1.Label51.Font.Color:=clGreen;
+
+      Form1.Label74.Font.Color:=clGreen;
+      Form1.Shape45.Brush.Color:=clGreen;
+
+      Form1.Label73.Font.Color:=clGreen;
+      Form1.Shape42.Brush.Color:=clGreen;
+      Form1.Shape43.Brush.Color:=clGreen;
+      Form1.Shape44.Brush.Color:=clGreen;
+      //
+      Form1.Label23.Font.Color:=clGreen;
+      Form1.Shape18.Brush.Color:=clGreen;
+    repeat
+      Delay(n*600);
+      Form1.Label72.Font.Color:=clGreen;
+      Form1.Shape39.Brush.Color:=clGreen;
+      Form1.Shape40.Brush.Color:=clGreen;
+      Form1.Shape41.Brush.Color:=clGreen;
+      Delay(n*80);
+       Form1.Label72.Font.Color:=clRed;
+      Form1.Shape39.Brush.Color:=clRed;
+      Form1.Shape40.Brush.Color:=clRed;
+      Form1.Shape41.Brush.Color:=clRed;
+      Form1.SChcontrol.Brush.Color:=clGreen;
+      Form1.Label11.Font.Color:=clGreen;
+      Form1.sIndic.Brush.Color:=clGreen;
+            Delay(n*200);
+      Form1.Label74.Font.Color:=clRed;
+      Form1.Shape45.Brush.Color:=clRed;
+      Delay(n*200);
+      Form1.Label74.Font.Color:=clGreen;
+      Form1.Shape45.Brush.Color:=clGreen;
+      Delay(n*600);
+            Form1.Label72.Font.Color:=clGreen;
+      Form1.Shape39.Brush.Color:=clGreen;
+      Form1.Shape40.Brush.Color:=clGreen;
+      Form1.Shape41.Brush.Color:=clGreen;
+      Delay(n*80);
+       Form1.Label72.Font.Color:=clRed;
+      Form1.Shape39.Brush.Color:=clRed;
+      Form1.Shape40.Brush.Color:=clRed;
+      Form1.Shape41.Brush.Color:=clRed;
+      Form1.SChcontrol.Brush.Color:=clRed;
+      Form1.Label11.Font.Color:=clRed;
+      Form1.sIndic.Brush.Color:=clRed;
+      n:=strtoint(Form1.Delayindic.Text);
+      Delay(n*200);
+      Form1.Label74.Font.Color:=clRed;
+      Form1.Shape45.Brush.Color:=clRed;
+      Delay(n*200);
+      Form1.Label74.Font.Color:=clGreen;
+      Form1.Shape45.Brush.Color:=clGreen;
+    until Bflag=False;
+        Form1.Label5.Font.Color:=clRed;
+      Form1.Label8.Font.Color:=clRed;
+
+    Form1.SAB.Brush.Color:=clRed;
+    Form1.Label15.Font.Color:=clRed;
+      Form1.Label16.Font.Color:=clRed;
+      Form1.Shape7.Brush.Color:=clRed;
+      Form1.Shape9.Brush.Color:=clRed;
+      Form1.Shape8.Brush.Color:=clRed;
+      Form1.Label17.Font.Color:=clRed;
+      Form1.Label18.Font.Color:=clRed;
+      Form1.Label19.Font.Color:=clRed;
+       Form1.Label20.Font.Color:=clRed;
+      Form1.Label10.Font.Color:=clRed;
+       Form1.Label15.Font.Color:=clRed;
+      Form1.Label21.Font.Color:=clRed;
+      Form1.Shape17.Brush.Color:=clRed;
+      Form1.Shape11.Brush.Color:=clRed;
+      Form1.Shape10.Brush.Color:=clRed;
+      Form1.Shape12.Brush.Color:=clRed;
+      Form1.Shape15.Brush.Color:=clRed;
+      Form1.Shape14.Brush.Color:=clRed;
+      Form1.Shape10.Brush.Color:=clRed;
+      Form1.Shape13.Brush.Color:=clRed;
+
+
+    Form1.Label10.Font.Color:=clRed;
+    Form1.sData.Brush.Color:=clRed;
+
+    Form1.sControl.Brush.Color:=clRed;
+      Form1.Label9.Font.Color:=clRed;
+      Form1.Label6.Font.Color:=clRed;
+         Form1.Shape3.Brush.Color:=clRed;
+      Form1.Shape4.Brush.Color:=clRed;
+      Form1.Shape5.Brush.Color:=clRed;
+      Form1.Label14.Font.Color:=clRed;
+      Form1.Label9.Font.Color:=clRed;
+
+      Form1.Label23.Font.Color:=clRed;
+      Form1.Shape18.Brush.Color:=clRed;
+
+      //
+            Form1.Shape23.Brush.Color:=clRed;
+      Form1.Shape24.Brush.Color:=clRed;
+      Form1.Shape25.Brush.Color:=clRed;
+      Form1.Shape26.Brush.Color:=clRed;
+      Form1.Shape27.Brush.Color:=clRed;
+      Form1.Shape28.Brush.Color:=clRed;
+      Form1.Label41.Font.Color:=clRed;
+      Form1.Label42.Font.Color:=clRed;
+      Form1.Label45.Font.Color:=clRed;
+      Form1.Label46.Font.Color:=clRed;
+      Form1.Label48.Font.Color:=clRed;
+
+      Form1.Shape29.Brush.Color:=clRed;
+      Form1.Label52.Font.Color:=clRed;
+
+      Form1.Shape35.Brush.Color:=clRed;
+      Form1.Shape36.Brush.Color:=clRed;
+      Form1.Shape37.Brush.Color:=clRed;
+      Form1.Shape38.Brush.Color:=clRed;
+      Form1.Shape33.Brush.Color:=clRed;
+      Form1.Shape34.Brush.Color:=clRed;
+      Form1.Label66.Font.Color:=clRed;
+      Form1.Label65.Font.Color:=clRed;
+      Form1.Label64.Font.Color:=clRed;
+      Form1.Label63.Font.Color:=clRed;
+      Form1.Label62.Font.Color:=clRed;
+      Form1.Label51.Font.Color:=clRed;
+
+      Form1.Label74.Font.Color:=clRed;
+      Form1.Shape45.Brush.Color:=clRed;
+      //
+end;
+
+procedure TForm1.SysOff();
+var n:Integer;
+begin
+    n:=strtoint(Form1.Delayindic.Text);
+    Delay(n*500);
+    Form1.sChState.Brush.Color:=clRed;
+    Form1.Label7.Font.Color:=clRed;
+    Delay(n*100);
+    Form1.Label73.Font.Color:=clRed;
+    Form1.Shape42.Brush.Color:=clRed;
+    Form1.Shape43.Brush.Color:=clRed;
+    Form1.Shape44.Brush.Color:=clRed;
+
+end;
+
+procedure TForm1.Delay(Value: Cardinal);
+var
+  F, N: Cardinal;
+begin
+  N := 0;
+  while N <= (Value div 10) do
+  begin
+    SleepEx(1, True);
+    Application.ProcessMessages;
+    Inc(N);
+  end;
+  F := GetTickCount;
+  repeat
+    Application.ProcessMessages;
+    N := GetTickCount;
+  until (N - F >= (Value mod 10)) or (N < F);
+end;
+
+procedure TForm1.btn2Click(Sender: TObject);
+begin
+    SysOff();
+    Bflag:=False;
+end;
+
+
+
+procedure TForm1.DelayInit(Sender: TObject);
+begin
+     Form1.Delayindic.Text:=inttostr(Form1.Delaymeter.Position);
+end;
+
+end.

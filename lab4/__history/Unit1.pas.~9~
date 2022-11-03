@@ -1,0 +1,80 @@
+unit Unit1;
+
+interface
+
+uses
+  Windows, Messages, SysUtils, Variants, Classes, Graphics, Controls, Forms,
+  Dialogs, ExtCtrls, StdCtrls, ComCtrls, Vcl.Imaging.pngimage;
+
+type
+  TForm1 = class(TForm)
+    Image1: TImage;
+    Image10: TImage;
+    Image2: TImage;
+    Image3: TImage;
+    Image4: TImage;
+    Image5: TImage;
+    Image6: TImage;
+    Image7: TImage;
+    Image8: TImage;
+    Image9: TImage;
+    Image11: TImage;
+    Timer1: TTimer;
+    TrackBar1: TTrackBar;
+    Button1: TButton;
+    Button2: TButton;
+    procedure TrackBar1Change(Sender: TObject);
+    procedure Button1Click(Sender: TObject);
+    procedure Button4Click(Sender: TObject);
+    procedure Timer1Timer(Sender: TObject);
+    procedure FormCreate(Sender: TObject);
+    procedure Button2Click(Sender: TObject);
+    procedure Button3Click(Sender: TObject);
+  private
+    { Private declarations }
+  public
+    { Public declarations }
+  end;
+
+var
+  Form1: TForm1;
+  k : integer;
+
+implementation
+
+{$R *.dfm}
+
+procedure TForm1.TrackBar1Change(Sender: TObject);
+begin
+timer1.Interval:=trackbar1.Position;
+end;
+
+procedure TForm1.Button1Click(Sender: TObject);
+begin
+memo1.Clear;
+end;
+
+procedure TForm1.Button4Click(Sender: TObject);
+begin
+k:=0;
+timer1.Enabled:=false;
+image1.Visible:=true;
+image2.Visible:=false;
+image3.Visible:=false;
+image4.Visible:=false;
+image5.Visible:=false;
+image6.Visible:=false;
+image7.Visible:=false;
+image8.Visible:=false;
+image9.Visible:=false;
+image10.Visible:=false;
+end;
+
+procedure TForm1.Timer1Timer(Sender: TObject);
+var t1:integer;
+begin
+
+
+end.
+end;
+end;

@@ -1,0 +1,9 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<BorlandProject>
+  <Transactions>
+    <Transaction>2022.10.04 13:09:55.908,=D:\KPI\3_course\пп\Unit1.pas</Transaction>
+    <Transaction>2022.10.04 13:14:17.398,D:\KPI\3_course\пп\lab2\Unit1.pas=D:\KPI\3_course\пп\Unit1.pas</Transaction>
+    <Transaction>2022.10.04 13:14:17.398,D:\KPI\3_course\пп\lab2\Unit1.dfm=D:\KPI\3_course\пп\Unit1.dfm</Transaction>
+    <Transaction>2022.10.04 17:35:45.866,D:\KPI\3_course\пп\lab2\Project1.dproj=D:\KPI\3_course\пп\Project1.dproj</Transaction>
+  </Transactions>
+</BorlandProject>

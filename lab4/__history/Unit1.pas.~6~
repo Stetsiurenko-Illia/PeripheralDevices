@@ -1,0 +1,76 @@
+unit Unit1;
+
+interface
+
+uses
+  Winapi.Windows, Winapi.Messages, System.SysUtils, System.Variants, System.Classes, Vcl.Graphics,
+  Vcl.Controls, Vcl.Forms, Vcl.Dialogs, Vcl.ExtCtrls, Vcl.ComCtrls, Vcl.StdCtrls,
+  Vcl.Imaging.pngimage;
+
+type
+  TForm1 = class(TForm)
+    Image1: TImage;
+    Image2: TImage;
+    Image3: TImage;
+    Image4: TImage;
+    Image5: TImage;
+    Image6: TImage;
+    Image7: TImage;
+    Image8: TImage;
+    Image9: TImage;
+    Image10: TImage;
+    Label1: TLabel;
+    Button1: TButton;
+    Button2: TButton;
+    Timer1: TTimer;
+    Timer2: TTimer;
+    TrackBar1: TTrackBar;
+    Image11: TImage;
+    procedure TrackBar1Change(Sender: TObject);
+    procedure FormCreate(Sender: TObject);
+    procedure Button1Click(Sender: TObject);
+  private
+    { Private declarations }
+  public
+    { Public declarations }
+  end;
+
+var
+  Form1: TForm1;
+  k1:boolean;
+  k:integer;
+
+implementation
+
+{$R *.dfm}
+
+procedure TForm1.Button1Click(Sender: TObject);
+begin
+image1.Visible:=true;
+image2.Visible:=false;
+image3.Visible:=false;
+image4.Visible:=false;
+image5.Visible:=false;
+image6.Visible:=false;
+image7.Visible:=false;
+image8.Visible:=false;
+image9.Visible:=false;
+image10.Visible:=false;
+timer1.Enabled:=true;
+timer2.Enabled:=true;
+k:=0;
+end;
+
+procedure TForm1.FormCreate(Sender: TObject);
+begin
+k:=0;
+k1:=false;
+end;
+
+
+procedure TForm1.TrackBar1Change(Sender: TObject);
+begin
+Timer1.Interval:=trackbar1.Position;
+end;
+
+end.

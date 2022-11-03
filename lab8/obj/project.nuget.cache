@@ -1,0 +1,10 @@
+{
+  "version": 2,
+  "dgSpecHash": "QLFY454czqSA2gjvnWM+zi+HEImvHVkfk84jzfH2TeqOw9hGg690DaKJVpHXy1JjJd6OT/ly0Q+ftHwkjmGJiA==",
+  "success": true,
+  "projectFilePath": "D:\\KPI\\3_course\\пп\\lab8\\lab8.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\Illia\\.nuget\\packages\\microsoft.netcore.app.host.win-x64\\3.1.25\\microsoft.netcore.app.host.win-x64.3.1.25.nupkg.sha512"
+  ],
+  "logs": []
+}
